@@ -103,5 +103,6 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:swrainbow/swrainbow.github.io.git
+#  repo: git@github.com:swrainbow/swrainbow.github.io.git
+  repo: git@114.67.247.95:/data/git/blog.git
   branch: master
