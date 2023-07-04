@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Newspace
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: swrainbow
 language: en
 timezone: ''
 
@@ -106,3 +106,15 @@ deploy:
 #  repo: git@github.com:swrainbow/swrainbow.github.io.git
   repo: git@114.67.247.95:/data/git/blog.git
   branch: master
+
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+  anchors:
+    level: 1
+    collisionSuffix: ''
