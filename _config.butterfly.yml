@@ -32,7 +32,7 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+  # fab fa-github: https://github.com/swrainbow || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # Image (圖片設置)
@@ -230,10 +230,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/swrainbow
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 我的博客空间
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
