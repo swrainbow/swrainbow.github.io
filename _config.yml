@@ -118,3 +118,7 @@ markdown:
   anchors:
     level: 1
     collisionSuffix: ''
+    
+aplayer:
+  meting: true
+  asset_inject: false
