@@ -2,6 +2,7 @@
 title: shader-raindrop(雨滴)
 date: 2023-07-09 18:49:45
 tags:
+categories: [Shader]
 ---
 # 雨滴效果
 ![](https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230710011037.png)
