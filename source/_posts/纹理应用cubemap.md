@@ -128,3 +128,6 @@ glDepthMask(GL_TRUE);
 glm::mat4 view = glm::mat4(glm::mat3(camera.GetViewMatrix()));
 ```
 ![](https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230712132306.png)
+
+# 优化（是个大课题，后续研究）
+等待中...
