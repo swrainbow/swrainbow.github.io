@@ -84,7 +84,7 @@ KD-Tree，每次将空间划分为两部分，且划分依次沿着x-axis，y-ax
 - 要考虑三角形和盒子求交（难）
 
 
-- Bouding Volume Hierarchy(BVH)
+## Bouding Volume Hierarchy(BVH)
 BVH不以空间作为划分依据，而是从物体的角度考虑，即三角形面。
 划分的步骤与KD-Tree类似。
 
