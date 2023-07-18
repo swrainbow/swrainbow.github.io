@@ -1,7 +1,9 @@
 ---
 title: Gamma矫正
 date: 2023-07-06 20:04:34
-tags:
+tags: [图形学]
+categories: [图形学]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230713154138.png
 ---
 原视频： [韩世麟：Gamma校正与线性工作流入门讲解](https://www.bilibili.com/video/BV15t411Y7cf/?vd_source=dc8bc359da1cacb67fa6054d14862294)
 # 使用伽马矫正的原因

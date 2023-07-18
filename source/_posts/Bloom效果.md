@@ -1,7 +1,9 @@
 ---
 title: Bloom效果
 date: 2023-07-06 20:22:40
-tags:
+tags: [图形学]
+categories: [图形学]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230713154509.png
 ---
 # 什么是bloom 效果
 Bloom 也称为辉光效果

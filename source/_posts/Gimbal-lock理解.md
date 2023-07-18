@@ -1,7 +1,9 @@
 ---
 title: Gimbal lock理解
 date: 2023-07-09 17:14:58
-tags:
+tags: [图形学]
+categories: [图形学]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230713154034.png
 ---
 可以先看B站解析视频[无伤理解欧拉角中的“万向死锁”现象](https://www.bilibili.com/video/BV1Nr4y1j7kn/?spm_id_from=333.999.0.0&vd_source=dc8bc359da1cacb67fa6054d14862294)
 # 欧拉角

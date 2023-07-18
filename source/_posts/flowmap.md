@@ -1,7 +1,8 @@
 ---
 title: flowmap
 date: 2023-07-10 01:30:44
-tags:
+tags: [图形学]
+categories: [图形学]
 ---
 
 # Flowmap

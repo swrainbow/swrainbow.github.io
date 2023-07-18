@@ -1,7 +1,8 @@
 ---
 title: 纹理应用cubemap
 date: 2023-07-05 17:51:18
-tags:
+tags: [图形学]
+categories: [图形学]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230712132344.png
 ---
 # 立方体贴图(Cube Map)。

@@ -1,7 +1,8 @@
 ---
 title: 环境光遮蔽-SSAO
 date: 2023-07-12 13:38:45
-tags:
+tags: [图形学]
+categories: [图形学]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230713013827.png
 ---
 参考百人计划课程链接:【技术美术百人计划】图形 4.2 [SSAO算法 屏幕空间环境光遮蔽_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16q4y1U7S3?p=2&vd_source=dc8bc359da1cacb67fa6054d14862294)
