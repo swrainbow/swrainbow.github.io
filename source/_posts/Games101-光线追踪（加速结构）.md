@@ -3,6 +3,7 @@ title: Games101-光线追踪（加速结构）
 date: 2023-07-05 20:12:39
 tags: [图形学]
 categories: [games101 系列]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png
 ---
 Whitted Style光追中，判断光线与场景相交需要去与所有三角形求交，渲染问题过慢。
 因此这节找到一些加速的办法。

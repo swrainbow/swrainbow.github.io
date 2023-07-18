@@ -1,7 +1,7 @@
 ---
 title: shader-raindrop(雨滴)
 date: 2023-07-09 18:49:45
-tags:
+tags: [Shader]
 categories: [Shader]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230712030750.png
 ---

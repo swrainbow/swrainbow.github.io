@@ -1,8 +1,9 @@
 ---
 title: shader-circle
 date: 2022-07-10 01:17:46
-tags:
+tags: [Shader]
 categories: [Shader]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230710125849.png
 ---
 
 画圆的方法有很多，这边文章使用了一种比较通用的方法，这也是我在2d gameEngine中使用的。废话不多说，马上开始。

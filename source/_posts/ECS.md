@@ -3,6 +3,7 @@ title: How to Build an Entity Component System Game in Javascript
 date: 2023-07-08 19:24:01
 tags: [设计模式]
 categories: [游戏引擎]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210522.png
 ---
 [搬运翻译](http://vasir.net/blog/game-development/how-to-build-entity-component-system-in-javascript)
 

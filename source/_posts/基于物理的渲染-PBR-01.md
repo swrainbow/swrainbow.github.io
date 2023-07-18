@@ -1,5 +1,5 @@
 ---
-title: 基于物理的渲染(PBR)-01-迪士尼原则的BRDF（Disney Principled BRDF）
+title: 基于物理的渲染(PBR)-01-(Cook-Torrance)
 date: 2023-07-13 17:16:02
 tags: [图形学]
 categories: [PBR]

@@ -1,7 +1,8 @@
 ---
 title: raytracing-in-one-week
 date: 2023-07-10 01:31:26
-tags:
+tags: [光线追踪]
+categories: [光线追踪]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230711174032.png
 ---
 # 开始

@@ -3,6 +3,7 @@ title: Games101-光栅化
 date: 2023-07-05 16:57:06
 tags: [图形学]
 categories: [games101 系列]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png
 ---
 # 光栅化, 深度测试与抗锯齿
 

@@ -1,7 +1,9 @@
 ---
 title: Games1-101 光线追踪（蒙特卡洛积分与路径追踪
 date: 2023-07-06 17:44:27
-tags:
+tags: [图形学]
+categories: [games101 系列]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png
 ---
 # 蒙特卡洛积分
 概率论前置：

@@ -3,6 +3,7 @@ title: 光线追踪（基本原理)
 date: 2023-07-05 19:57:01
 tags: [图形学]
 categories: [games101 系列]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png
 ---
 # 引入光线追踪的原因
 光栅化的缺点：不能很好的处理全局光照

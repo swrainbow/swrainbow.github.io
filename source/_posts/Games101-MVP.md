@@ -3,6 +3,7 @@ title: Games101--MVP
 date: 2023-07-04 02:14:14
 tags: [图形学]
 categories: [games101 系列]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png
 ---
 
 # MVP变换

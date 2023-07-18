@@ -1,7 +1,9 @@
 ---
 title: Games101-几何-贝塞尔曲线
 date: 2023-07-06 18:06:45
-tags:
+tags: [图形学， Shading]
+categories: [games101 系列]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png
 ---
 
 # 贝塞尔曲线

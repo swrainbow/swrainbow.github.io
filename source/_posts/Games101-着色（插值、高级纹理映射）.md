@@ -3,6 +3,7 @@ title: Games101-着色（插值、高级纹理映射）
 date: 2023-07-05 17:37:48
 tags: [图形学， Shading]
 categories: [games101 系列]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png
 ---
 
 # 重心坐标

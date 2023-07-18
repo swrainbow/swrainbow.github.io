@@ -1,7 +1,9 @@
 ---
 title: HDR
 date: 2023-07-08 19:23:41
-tags:
+tags: [图形学]
+categories: [图形学 openGL]
+cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210112.png
 ---
 原文查看拷贝[LearnOpengl章节](https://learnopengl-cn.github.io/05%20Advanced%20Lighting/06%20HDR/)
 
