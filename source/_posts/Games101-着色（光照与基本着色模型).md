@@ -1,6 +1,6 @@
 ---
 title: Games101-着色（光照与基本着色模型)
-date: 2023-07-05 17:27:28
+date: 2023-02-18 17:27:28
 tags: [图形学， Shading]
 categories: [games101 系列]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png

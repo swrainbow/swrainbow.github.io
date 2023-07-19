@@ -1,6 +1,6 @@
 ---
 title: Bloom效果
-date: 2023-07-06 20:22:40
+date: 2023-06-20 20:22:40
 tags: [图形学]
 categories: [图形学]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230713154509.png

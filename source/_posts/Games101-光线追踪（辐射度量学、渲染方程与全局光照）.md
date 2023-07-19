@@ -1,6 +1,6 @@
 ---
 title: Games101-光线追踪（辐射度量学、渲染方程与全局光照）
-date: 2023-07-06 17:13:47
+date: 2023-03-06 17:13:47
 tags: [图形学]
 categories: [games101 系列]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230718210215.png

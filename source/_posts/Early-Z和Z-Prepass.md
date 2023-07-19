@@ -1,6 +1,6 @@
 ---
 title: Early-Z和Z-Prepass
-date: 2023-07-11 19:54:24
+date: 2023-05-11 19:54:24
 tags: [图形学]
 categories: [图形学]
 ---

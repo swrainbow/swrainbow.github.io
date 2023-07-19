@@ -1,6 +1,6 @@
 ---
 title: Framebuffers帧缓冲
-date: 2023-07-08 18:01:02
+date: 2023-06-11 18:01:02
 tags: [图形学]
 categories: [openGL]
 ---

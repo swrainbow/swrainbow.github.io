@@ -1,6 +1,6 @@
 ---
 title: Gamma矫正
-date: 2023-07-06 20:04:34
+date: 2023-06-13 20:04:34
 tags: [图形学]
 categories: [图形学]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230713154138.png

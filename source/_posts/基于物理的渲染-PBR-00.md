@@ -1,6 +1,6 @@
 ---
 title: 基于物理的渲染(PBR)-00
-date: 2023-07-12 18:12:12
+date: 2023-06-13 18:12:12
 tags: [图形学]
 categories: [PBR]
 cover: https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230713160112.png
