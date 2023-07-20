@@ -14,3 +14,8 @@ date: 2023-07-04 01:30:29
 
 
 不管以后是否从事图形相关的工作，希望能一直坚持下去。
+
+2D games Engine: 按着the cherno的引擎课程一步步来。中间踩了很多坑，基本都是c++环境问题。
+
+![](https://strainbow.oss-cn-hangzhou.aliyuncs.com/IMG_7478.GIF)
+![](https://strainbow.oss-cn-hangzhou.aliyuncs.com/20230720152153.png)
