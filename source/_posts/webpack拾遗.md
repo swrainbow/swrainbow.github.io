@@ -83,3 +83,64 @@ mainfest文件包含重新build生成的hash值，以及变化的模块，对应
 2. 从entry-point开始递归分析依赖，对每个以来模块进行build
 3. 将通过loader生成的module编译成ast树
 4. 遍历ast树，进行build 输出的dist目录
+
+
+# 基本知识点
+## module.exports export
+```js
+module.id
+module.filename //模块的文件名 带有绝对路径
+module.loaded // 是否已经加载完成
+module.parent // 表示调用该模块的对象
+module.children  // 模块内用到的其他模块
+module.exports // 对外输出
+exports = module.exports
+```
+- commonJS 模块输出的是一个值的拷贝， ES6模块输出的是值的引用
+- commonJS 模块是运行时加载， ES6 模块是编译时转换
+- commonJS require是同步加载， ES6模块import命令是异步加载
+
+## chunk
+1. 文件chunk
+2. 打包出来的文件module
+
+webpack rule加载顺序从右到左，从下往上
+## postCss
+添加postcss.config.js 文件 
+```js
+module.exports = {
+  plugins: [
+    require('autoprefixer');
+  ]
+}
+```
+## defer和async的区别
+defer属性告诉浏览器不要等待脚本，浏览器会继续处理 HTML，构建 DOM。该脚本“在后台”加载，然后在 DOM 完全构建完成后再运行。
+DOMContentLoaded事件处理程序等待defer脚本执行完之后执行
+
+
+浏览器不会阻止async脚本
+其他脚本也不会等待async脚本，async脚本也不会等待其他脚本
+DOMContentLoaded和async脚本不会互相等待
+
+DOMContentLoaded可能在async脚本执行之前触发（如果async脚本在页面解析完成后完成加载）
+或在async脚本执行之后触发（如果async脚本很快加载完成或在 HTTP 缓存中）
+
+script 是会阻碍 HTML 解析的，只有下载好并执行完脚本才会继续解析 HTML
+defer 和 async有一个共同点：下载此类脚本都不会阻止页面呈现（异步加载），区别在于：
+
+async 执行与文档顺序无关，先加载哪个就先执行哪个；defer会按照文档中的顺序执行
+async 脚本加载完成后立即执行，可以在DOM尚未完全下载完成就加载和执行；而defer脚本需要等到文档所有元素解析完成之后才执行
+
+## 查看vue-cli webpack配置
+npx vue-cli-service inspect | tee sample.webpack.js 利用管到配置
+
+## 插件
+- 需要有apply方法 在安装插件时被调用， 并被webpack compiler调用一次
+- 指定一个触及到webpack本身的事件钩子， hooks， 用于特定时机处理逻辑
+
+```
+apply 函数获取 compiler， 调用compiler.hooks.done/**.tap('name', ()=> {
+  
+})
+```
