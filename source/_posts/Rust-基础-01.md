@@ -1,5 +1,5 @@
 ---
-title: Rust入门-基本类型 & 所有权和借用 特征
+title: Rust入门-基本类型 & 所有权和借用 特征(停更中-----)
 date: 2023-12-10 21:17:14
 tags: [Rust]
 categories: [Rust]
