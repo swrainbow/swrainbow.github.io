@@ -67,7 +67,7 @@ e.target 是事件的真正出发着
 navigator.appCodeName
 
 ## 为什么inline-block布局的时候存在一个空格的间距
-换行引起的问题，需要给腹级设置font-size=0
+换行引起的问题，需要负级级设置font-size=0
 
 ## position 属性
 1. relative
@@ -102,3 +102,19 @@ BFC 就是一个页面独立的容器， 容器里面的子元素不会影响到
 ## position: fixed
 当一个元素包含fixed 属性时，屏幕视口（viewport）会为其创建一个包含块（containing block），其大小就是 viewport 的大小，然后该 fixed 元素基于该包含块进行定位。所以通常我们会说 fixed 元素是相对 viewport 来定位的。
 此外，fixed 属性会创建新的层叠上下文。当元素祖先的 transform, perspective 或 filter 属性非 none 时，容器由视口改为该祖先。
+
+# element或者ant 框架样式修改
+参考 https://segmentfault.com/a/1190000039308765 
+
+1. 主要先确认组件是渲染在哪里的
+    - dropdown组件则是一部分渲染在#app内，一部分渲染在"#app"的外面且与"#app"同级
+    - button是渲染在当前页面内部的，包裹在"#app"的容器里
+> 渲染在#app之外的那部分节点，需要单独设置类名，比如 tooltip，我们设置overlayClassName="overlay-class"
+2. 类名scoped的限制
+开发时，我们会根据需要设置每个页面、组件css的scoped属性,给对应的目标生成类似hash标识,打开Elements面板，观察你要写的节点class，有没有这个“标识”。
+如果有的话，正常写css，类名就会被编译成有“标识”的；
+如果没有的话，需要设置在/deep/、>>>之后，编译后就会拿掉这个标识 vue3 直接用:deep()
+3. 使用/deep/、 >>>时, parentClass所在的节点是不带“标识”的怎么办
+手动更改渲染规则
+通过设置组件的getContainer属性（有的组件是 getPopupContainer ），我们将原本渲染在#app外部的节点，手动挂载到了#app内部，之后再通过第二条的规则去设置就可以
+
