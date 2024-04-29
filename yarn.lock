@@ -1007,6 +1007,13 @@
     "mv" "~2"
     "safe-json-stringify" "~1"
 
+"hexo-butterfly-swiper@^1.0.12":
+  "integrity" "sha512-2gdp6/rlWIbTQH6/HALodc6QXiO7RV2cNbN6LTJJPj+nFZ9/WQnset9u5KEo8+5G8VR/FAJ4kojvu0+nbvZVxA=="
+  "resolved" "https://registry.npmjs.org/hexo-butterfly-swiper/-/hexo-butterfly-swiper-1.0.12.tgz"
+  "version" "1.0.12"
+  dependencies:
+    "pug" "^3.0.0"
+
 "hexo-cli@^4.3.0":
   "integrity" "sha512-nYe7yJhXT7MwlDEpIAjneMfz0wnWTdIhRv+cVW2OPTw8JtG2X+8Y/sYhPDvQz/ZqjFRZ4qgiKFXN5orFJ/u1vg=="
   "resolved" "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.1.tgz"
@@ -2229,7 +2236,7 @@
   "resolved" "https://registry.npmjs.org/pug-walk/-/pug-walk-2.0.0.tgz"
   "version" "2.0.0"
 
-"pug@^3.0.2":
+"pug@^3.0.0", "pug@^3.0.2":
   "integrity" "sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw=="
   "resolved" "https://registry.npmjs.org/pug/-/pug-3.0.2.tgz"
   "version" "3.0.2"
